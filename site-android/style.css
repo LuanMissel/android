@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --cor-primária: #0bd39e;
+    --cor-secundaria: #0cc997;
+    --cor-terciaria: #044e3b;
+    --cor-quartenaria: #0A3F2B;
+    --cor-quintenaria: #082c1e;
+    --cor-principal:#06926d ;
+    --cor-fundo: #628F75;
+    --cor-headers: #1ca35494;
+    --cor-h2: #10ebb05b;
+
+    /*fontes*/
+    --fonte-padrão: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive; 
+    --fonte-android: 'android' , cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    background-color: #E8E7C2;
+
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor-principal), var(--cor-quintenaria));
+    padding: 4px;
+    padding-left: 15px;
+    background-attachment: fixed;
+    min-height: 150px;
+}
+header > p {
+    text-align: center;
+    color: white;
+    font-family: var(--fonte-padrão);
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#principal {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 1px black;
+}
+
+nav {
+    padding: 10px;
+    text-shadow: 10px 3px 10px rgba(0, 0, 0, 0.253);
+
+}
+
+nav > a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;   
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: var(--cor-quintenaria);
+    background-color: var(--cor-secundaria);
+}
+
+main {
+    max-width: 800px;
+    min-width: 320px;
+    background-color: white;
+    margin: auto;
+    padding: 0px;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main img#bugdroid {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+
+main p {
+    text-align: justify;
+    font-family: var(--fonte-padrão);
+    line-height: 1.5em;
+    padding: 20px;
+    text-indent: 15px;
+}
+
+.iri {
+    display: flex;
+    align-items: center;
+}
+
+
+.andro {
+    color: #628F75;
+}
+
+.link {
+    color: black;
+    background-color: #0cc9964b;
+    text-decoration: none;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link::after {
+    content: "🔗";
+    margin-left: 0.2em;
+}
+
+#video-embed {
+    background-color: #032e23;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+aside {
+    background-color: #0969317e;
+    margin: auto;
+    max-width: 650px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.212);
+}
+
+aside > h3 {
+    background-color: var(--cor-terciaria);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+    columns: 2;
+    list-style-position: inside;
+}
+
+li > abbr {
+    text-decoration: none;
+}
+
+
+
+li > abbr:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+li::before {
+    content: '✔️';
+    margin-right: 0.5em;
+}
+
+.droid {
+    font-family: var(--fonte-android);
+    font-size: 1.8em;
+    padding: 15px;
+    color: #0A3F2B;
+    font-weight: normal;
+    margin-left: 7px;
+}
+
+.droid2 {
+    font-family: var(--fonte-android);
+    font-size: 1.2em;
+    font-weight: normal;
+    padding: 2px;
+    margin-left: 20px;
+    color: var(--cor-quartenaria);
+    background-image: linear-gradient(to right, var(--cor-h2), transparent);
+    height: auto;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+}
