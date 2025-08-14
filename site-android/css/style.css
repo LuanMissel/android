@@ -40,7 +40,7 @@ body {
 header {
     background-image: linear-gradient(to bottom, var(--cor-principal), var(--cor-quintenaria));
     padding: 4px;
-    padding-left: 15px;
+    padding-left: 10px;
     background-attachment: fixed;
     min-height: 150px;
 }
