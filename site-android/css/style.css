@@ -41,6 +41,7 @@ header {
     background-image: linear-gradient(to bottom, var(--cor-principal), var(--cor-quintenaria));
     padding: 4px;
     padding-left: 10px;
+    padding-right: 10px;
     background-attachment: fixed;
     min-height: 150px;
 }
