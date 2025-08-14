@@ -44,6 +44,7 @@ header {
     background-attachment: fixed;
     min-height: 150px;
 }
+
 header > p {
     text-align: center;
     color: white;
@@ -107,9 +108,8 @@ main p {
     text-indent: 15px;
 }
 
-.iri {
-    display: flex;
-    align-items: center;
+main img {
+    width: 100%;
 }
 
 
