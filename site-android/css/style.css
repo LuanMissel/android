@@ -21,7 +21,7 @@
     /*fontes*/
     --fonte-padrão: arial, verdana, helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive; 
-    --fonte-android: 'android' , cursive;
+    --fonte-android: 'android', arial, cursive;
 }
 
 * {
